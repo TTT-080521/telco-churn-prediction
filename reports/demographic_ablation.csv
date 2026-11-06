@@ -1,0 +1,4 @@
+Model,F1 (all features),F1 (no demographics),ROC-AUC (all features),ROC-AUC (no demographics)
+KNN,0.594,0.595,0.822,0.822
+Logistic Regression,0.614,0.619,0.839,0.84
+Random Forest,0.616,0.624,0.838,0.841

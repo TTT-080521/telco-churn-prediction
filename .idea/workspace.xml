@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8212b5d7-d984-430d-ac17-78f5f8ee16a1" name="Changes" comment="Add modelling notebook: preprocessing, baseline and tuned+SMOTE experiments&#10;&#10;Clean TotalCharges, drop customerID, encode target&#10;Stratified 80/20 train/test split&#10;Preprocessing pipeline (scaling + one-hot encoding)&#10;Experiment 1: baseline KNN, Logistic Regression, Random Forest&#10;Experiment 2: GridSearchCV tuning with SMOTE inside the pipeline&#10;Save results table to reports/model_results.csv">
+    <list default="true" id="8212b5d7-d984-430d-ac17-78f5f8ee16a1" name="Changes" comment="Add model evaluation: confusion matrices, ROC&#10;curves, metric comparison and feature importance&#10;&#10;Confusion matrices for all models in both experimental settings&#10;ROC curves for the tuned models&#10;Metric comparison chart (baseline vs tuned+SMOTE)&#10;Random Forest feature importance and Logistic Regression coefficients&#10;Classification report for the final model; tuned models saved with joblib">
+      <change afterPath="$PROJECT_DIR$/notebooks/03_fairness.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/02_modelling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/02_modelling.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793775929670</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add model evaluation: confusion matrices, ROC&#10;curves, metric comparison and feature importance&#10;&#10;Confusion matrices for all models in both experimental settings&#10;ROC curves for the tuned models&#10;Metric comparison chart (baseline vs tuned+SMOTE)&#10;Random Forest feature importance and Logistic Regression coefficients&#10;Classification report for the final model; tuned models saved with joblib">
+      <option name="closed" value="true" />
+      <created>1793779731534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1793779731534</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +125,8 @@
     <MESSAGE value="added .gitkeep files" />
     <MESSAGE value="Add exploratory data analysis notebook and figures" />
     <MESSAGE value="Add modelling notebook: preprocessing, baseline and tuned+SMOTE experiments&#10;&#10;Clean TotalCharges, drop customerID, encode target&#10;Stratified 80/20 train/test split&#10;Preprocessing pipeline (scaling + one-hot encoding)&#10;Experiment 1: baseline KNN, Logistic Regression, Random Forest&#10;Experiment 2: GridSearchCV tuning with SMOTE inside the pipeline&#10;Save results table to reports/model_results.csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add modelling notebook: preprocessing, baseline and tuned+SMOTE experiments&#10;&#10;Clean TotalCharges, drop customerID, encode target&#10;Stratified 80/20 train/test split&#10;Preprocessing pipeline (scaling + one-hot encoding)&#10;Experiment 1: baseline KNN, Logistic Regression, Random Forest&#10;Experiment 2: GridSearchCV tuning with SMOTE inside the pipeline&#10;Save results table to reports/model_results.csv" />
+    <MESSAGE value="Add model evaluation: confusion matrices, ROC&#10;curves, metric comparison and feature importance&#10;&#10;Confusion matrices for all models in both experimental settings&#10;ROC curves for the tuned models&#10;Metric comparison chart (baseline vs tuned+SMOTE)&#10;Random Forest feature importance and Logistic Regression coefficients&#10;Classification report for the final model; tuned models saved with joblib" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add model evaluation: confusion matrices, ROC&#10;curves, metric comparison and feature importance&#10;&#10;Confusion matrices for all models in both experimental settings&#10;ROC curves for the tuned models&#10;Metric comparison chart (baseline vs tuned+SMOTE)&#10;Random Forest feature importance and Logistic Regression coefficients&#10;Classification report for the final model; tuned models saved with joblib" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

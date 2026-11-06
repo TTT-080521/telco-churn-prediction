@@ -1,0 +1,13 @@
+Model,Attribute,Group,n,Actual churn rate,Predicted churn rate,Recall (TPR),False positive rate,Precision
+KNN,gender,Female,687,0.281,0.447,0.793,0.312,0.498
+KNN,gender,Male,722,0.251,0.452,0.807,0.333,0.448
+KNN,SeniorCitizen,0,1187,0.233,0.407,0.768,0.297,0.439
+KNN,SeniorCitizen,1,222,0.441,0.676,0.888,0.508,0.58
+Logistic Regression,gender,Female,687,0.281,0.408,0.772,0.265,0.532
+Logistic Regression,gender,Male,722,0.251,0.421,0.801,0.294,0.477
+Logistic Regression,SeniorCitizen,0,1187,0.233,0.365,0.736,0.252,0.469
+Logistic Regression,SeniorCitizen,1,222,0.441,0.68,0.929,0.484,0.603
+Random Forest,gender,Female,687,0.281,0.351,0.699,0.215,0.56
+Random Forest,gender,Male,722,0.251,0.363,0.746,0.235,0.515
+Random Forest,SeniorCitizen,0,1187,0.233,0.313,0.692,0.198,0.515
+Random Forest,SeniorCitizen,1,222,0.441,0.595,0.806,0.427,0.598
